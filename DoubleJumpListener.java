@@ -15,7 +15,7 @@ public class DoubleJumpListener implements Listener {
 
     @EventHandler
     public void onPlayerMove(PlayerMoveEvent e) {
-        // Check if the player is null or not in survival mode
+      
         Player p = e.getPlayer();
 
         // Allow flight only if the player is in survival mode, on the ground, and not already allowed to fly
