@@ -15,7 +15,7 @@ public class ItemHandlerListener implements Listener {
     /**
      * Listener per gestire l'evento di interazione del giocatore con un oggetto.
      * Questo metodo permette al giocatore di lanciare un fulmine su un'entità
-     * entro un raggio di 50 blocchi, utilizzando un bastone.
+     * entro un raggio di 50 blocchi, utilizzando uno "STICK".
      *
      * @param event L'evento di interazione del giocatore.
      */
