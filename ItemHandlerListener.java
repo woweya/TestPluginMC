@@ -26,7 +26,7 @@ public class ItemHandlerListener implements Listener {
         // Ottiene l'oggetto che il giocatore tiene nella mano principale
         org.bukkit.inventory.ItemStack item = player.getInventory().getItemInMainHand();
 
-        // Controlla se l'oggetto non è aria e se è un bastone
+        // Controlla se l'oggetto non è aria e se è uno STICK
         if (item.getType() != org.bukkit.Material.AIR && item.getType().toString().contains("STICK")) {
             // Variabile per memorizzare l'entità mirata
             Entity targetEntity = null;
